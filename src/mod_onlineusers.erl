@@ -30,6 +30,7 @@ process(LocalPath, _Request) ->
     {200, [], pretty_string_int(mnesia:table_info(session, size))}.
 
 %% Transform 1234567890 into "1,234,567,890"
+%% copied from ejabberd's ejabberd_web_admin.erl. Thanks for sharing.
 pretty_string_int(Integer) when is_integer(Integer) ->
     pretty_string_int(integer_to_list(Integer));
 pretty_string_int(String) when is_list(String) ->
