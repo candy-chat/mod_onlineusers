@@ -11,7 +11,7 @@ Displays the number of online users via the http interface of ejabberd.
 
 Usage
 -----
-Go to (http://example.com:5280/onlineusers) to see your currently online users. (Change *example.com* to your server & *5280* to your ejabberd http port.
+Go to (http://example.com:5280/onlineusers) to see your currently online users. (Change *example.com* to your server & *5280* to your ejabberd http port).
   
 
 **Be aware:** I just did it because I didn't find a better way to do it via a standard module from ejabberd. There may be bugs and there may be a better way to achieve it.
