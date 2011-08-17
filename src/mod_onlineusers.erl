@@ -8,7 +8,7 @@
 -module(mod_onlineusers).
 -author('michael.weibel@amiadogroup.com').
 -vsn('').
--define(ejabberd_debug, true).
+%%-define(ejabberd_debug, true).
 
 -behaviour(gen_mod).
 
