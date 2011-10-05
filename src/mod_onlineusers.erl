@@ -26,7 +26,7 @@
 %%% REQUEST HANDLERS
 %%%----------------------------------------------------------------------
 
-process(LocalPath, _Request) ->
+process(_LocalPath, _Request) ->
     {200, [], integer_to_list(mnesia:table_info(session, size))}.
 
 %%%----------------------------------------------------------------------
